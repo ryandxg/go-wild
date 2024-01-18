@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEW WEBSITE</title>
+    <link rel="stylesheet" href="wild.css">
+</head>
+<body>
+    <div class="header">
+        <img src="IMG/unnamed.jpg" class="head">
+    </div>
+    <div class="nav">
+        <ul>
+            <a href="">HOME</a>
+            <a href="product.html">PRODUCTS</a>
+            <a href="service.html">SERVICE</a>
+            <a href="FAQs.html">FAQs</a>
+            <a href="contact.html">CONTACT US</a>
+        </ul>
+    </div>
+    <div id="para">
+        <h1>AYETI ADORN</h1>
+    </div>
+    <div class="slider">
+        <img src="img/IMG-20230530-WA0000.jpg" alt="the slider">
+    </div>
+    <div class="about">
+        <p>
+            Welcome to <span>AYETI ADORN</span>. At <span>AYETI ADORN</span>, we believe that fasion
+            ia an art form that allows individuals to express their unique personalities and styles. We are a platform dedicated
+            to showcasing the finest and most innovative fashion design from around the world. 
+            <br> <br> Our mission is to create a vibrant and inclusive community that celebrates fashion in all its form.
+            We aim to bridge the gap between fashion designers and fashion lovers, offering a space where creativity flourishes,
+            and ideas are shared. We believe that fashion has the power to uplift, inspire, and connect people from different background,
+            cultures, and perspectives.
+            <br><br> At <span>AYETI ADORN</span> we curate a diverse selection of designs that represent the latest trends and
+            established designers alike, bringing you a wide range of styles, from <span>Haute Couture to Streetwears</span> be it <span>Bespoke or Ready to Wear</span>.
+            <br><br> In addition to providing a platform for designers to showcase their work, we also strive to educate and empower our community.
+            We believe in the importance of imformed choices and aim to be a reliable source of information for our audience.
+            We are commited to sustainability and ethical practices in the fashion industry. We actively seek out designers and brands that prioritize eco-friendly materials,
+            fair trade, and ethical production processes. By promoting sustainable fashion, we hope to contribute to a more conscious and responsible industry that respects 
+            both people and the planet.
+            <br><br> Our goal is to provide a seamless and enjoyable shopping experience for our customers. Our website is designed to be user-friendly, with intuitive navigation
+            and a well secure payment system. We offer worldwide shipping, ensuring that fashion lovers arom all coners of the globe can access the design they love.
+            <br><br>Thank you for visiting <span>AYETI ADORN</span>. We invite you to explore our collection, discover new designers, and immerse yourself in the world of fashion.
+            Join us on this exciting journey as we celebrate the creativity, beauty and diversity of fashion.
+        </p>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="IMG/IMG-6.jpg" />
+            <div class="title">
+                <h4>Pink Gown</h4>
+                <p class="gra">This <span>Abaya</span> is one of many ready to wear 
+                    dresses whih are available.
+                It is a Pink Gown with flare.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="IMG/IMG-1.jpg" />
+            <div class="title">
+                <h4>Grey Gown</h4>
+                <p class="gra">This <span>Abaya</span> is one of many ready to wear 
+                    dresses whih are available.
+                It is a Grey Gown with flare and a touch of pizazzzzz.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="IMG/IMG-5.jpg" />
+            <div class="title">
+                <h4>Native Gown</h4>
+                <p class="gra">This <span>Bespoke Native</span>  wear is one of 
+                    many 
+                    ready to wear dresses whih are available.
+                It is a blue and silver ankara and gele.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="IMG/IMG-7.jpg" />
+            <div class="title">
+                <h4>Brown Gown</h4>
+                <p class="gra">This <span>Brown Corset Gown</span> is one of many 
+                    ready to wear dresses whih are available.
+                It speaks elegance amd can be styled in differt ways to fit yor recired tatse and
+                occasion.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="order" id="Reservation">
+        <h1><span>Make a</span>Reservation</h1>
+
+        <div class="order_main">
+
+            <div class="order_image">
+                <img loading="lazy" src="/images/order_image.png">
+            </div>
+
+            <form id="myForm1" action="/submitReservation" class="myForm" method="post">
+
+                <div class="input">
+                    <p>Your name</p>
+                    <input id="reservationName" name="name" type="text" placeholder="Input your name" required>
+                </div>
+
+                <div class="input">
+                    <p>Number of people</p>
+                    <input id="reservationNumberOfPeople" name="numberOfPeople" type="number" min=1 oninput="validity.valid||(value='');" placeholder="Table of" required>
+                </div>
+
+                <div class="input">
+                    <p>Time</p>
+                    <input id="reservationTime" name="time" type="text"  placeholder="Time of Arrival" required>
+
+                </div>
+
+                <div class="input">
+                    <p>Date</p>
+                    <input id="reservationDate" name="date" type="text"  placeholder="Scheduled Date" required>
+                   
+                </div>
+                
+
+
+                <div class="input">
+                    <p>Phone number</p>
+                    <input id="reservationPhoneNumber" name="phoneNumber" type="tel" placeholder="Input Mobile">
+                </div>
+
+                <div class="input">
+                    <p>Email</p>
+                    <input id="reservationEmail" name="email" type="email" placeholder="Input Email." required>
+                </div>
+
+                
+
+                <input type="submit" class="order_btn"></input>
+
+            </form>
+
+        </div>
+
+    </div>
+</html>

@@ -1,0 +1,279 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width:100%;
+    margin:0;
+    background-color: #eee;
+    
+    
+}
+.nav{
+    width:100%;
+    text-align:center;
+    padding:2px;
+    margin: 20px 10px 10px 10px;
+   
+}
+.nav ul{
+    margin-top:0%;
+    margin-bottom:0%;
+}
+.nav ul a{
+    color:black;
+    margin:20px;
+    font-size:25px;
+    text-decoration: none;
+    font-family: cursive;
+}
+.nav ul a:hover{
+    background-color: black;
+    color: red;
+}
+.header{
+    width:100%;
+    height:80px;
+}
+
+.header .head{
+    width:300px;
+    height:100px;
+    margin-left:500px;
+ 
+}
+.slider{
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+.slider img{
+    width: 100%;
+    height: 600px;
+    border-radius: 100px;
+}
+#para{
+    width:100%;
+    text-align:center;
+    font-family: cursive;
+    margin:0;
+    text-shadow: 3px 2px red;
+    font-style: italic;
+    font-size: 30px;
+}
+#para{
+    animation-name: para;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count:infinite;
+    animation-play-state: running;
+}
+@keyframes para{
+    0%{color:blue;}
+    25%{colo:darkcyan;}
+    30%{color:red;}
+    35%{color:yellow;}
+    40%{color:brown;}
+    45%{color:black;}
+    60%{color:green;}
+    70%{color:maroon;}
+    80%{color:rgb(41, 0, 128);}
+    90%{color:rgb(128, 0, 21);}
+    1000%{color:rgb(0, 128, 6);}
+}   
+.about{
+    margin: 50px 20px 50px 20px;
+} 
+.about p{
+    font-size: 20px;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+}
+.container {
+    width: 95%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    height: 500px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: red;
+    color: white;
+    overflow: hidden;
+    height: 3.4rem;
+    transition: all;
+    transition-duration: 500ms;
+}
+h4{
+    margin: 2px;
+    font-size: 40px;
+}
+.gra{
+    font-size: 15px;
+    margin: 20px;
+    color: white;
+    border: 2px solid red;
+    width: 290px;
+}
+span{
+    font-weight: bolder;
+}
+.card:hover .title {
+    height: 30%;
+}
+
+
+.order{
+    width: 100%;
+    padding-bottom: 7vw;
+    background-image: url(image/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.order h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 40px;
+}
+
+.order h1 span{
+    color: #90323d;
+    margin-right: 15px;
+    font-family: mv boli;
+}
+
+
+
+.order .order_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.order .order_main .order_image img{
+    width: 500px;
+}
+
+.order .order_main form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 10px;
+}
+
+.order .order_main form .input p{
+    line-height: 25px;
+}
+
+.order .order_main form .input{
+    margin: 5px 0;
+}
+
+.order .order_main form .input input{
+    width: 300px;
+    height: 35px;
+    padding: 0 10px;
+    border: 2px solid #cccccc;
+    background: #eeeeee;
+    outline: none;
+    border-radius: 3px;
+    
+}
+
+.order .order_main form .input input:focus{
+    border: 2px solid #90323d;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+            flex-direction: column;
+            height: 800px;
+    }
+
+        .card:hover .title {
+            height: 50%;
+        }
+}
+
+/*this is where styling for product starts*/
+.con{
+    width:1000px;
+    margin:auto;
+    height: 800px;
+    background-color:#fff;
+}
+.pro{
+    text-align: center;
+    background-color: orange;
+    width:500px;
+    margin:auto;
+    padding:10px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+.ourimg{
+    width: 30%;
+    height: 280px;
+    display: inline-block;
+    background-color: darkgray;
+    margin: 10px 0px 0px 23px;
+}
+.ourimg img{
+   width: 100%;
+   height: 200px;
+}
+.ourimg h6{
+     text-align: center;
+     font-family: cursive;
+     margin: 0;
+}
+.ourimg button{
+  margin: 4px 110px;
+  border-radius: 7px;
+    font-size: 16px;
+}
+.ourimg button:hover{
+   background-color: black;
+   color: white;
+}
+h6{
+    font-size: 20px;
+}
+.ourback3{
+    background-color:gold;
+     border-radius:20px;
+     padding:10px;
+     text-decoration: none;
+     color:black;
+     font-size:30px;
+     width: 130px;
+     margin-top: 20px;
+ }
+ .ourback3 a:hover{
+     background-color: pink;
+     text-decoration: none;
+ }
